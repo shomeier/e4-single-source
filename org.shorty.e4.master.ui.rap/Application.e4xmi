@@ -8,7 +8,7 @@
       </children>
     </trimBars>
   </children>
-  <handlers xmi:id="_B0siMH2OEeSCTqlUvUWqMA" elementId="org.shorty.e4.master.ui.rap.handler.0" contributionURI="bundleclass://org.shorty.e4.common.ui/org.shorty.e4.commons.ui.handler.ExitHandler" command="_-1TY4H2NEeSCTqlUvUWqMA"/>
+  <handlers xmi:id="_B0siMH2OEeSCTqlUvUWqMA" elementId="org.shorty.e4.master.ui.rap.handler.0" contributionURI="bundleclass://org.shorty.e4.common.ui/org.shorty.e4.common.ui.handler.ExitHandler" command="_-1TY4H2NEeSCTqlUvUWqMA"/>
   <rootContext xmi:id="_e9uzGX18EeS66c9i5NziuA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_e9uzGn18EeS66c9i5NziuA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_e9uzG318EeS66c9i5NziuA" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
