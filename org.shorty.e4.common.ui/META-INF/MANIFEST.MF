@@ -9,3 +9,4 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Import-Package: org.eclipse.e4.ui.workbench
 Bundle-ClassPath: icons/,
  .
+Export-Package: org.shorty.e4.common.ui.handler
