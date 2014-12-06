@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_e9uzEH18EeS66c9i5NziuA" elementId="org.eclipse.e4.ide.application" bindingContexts="_e9uzGX18EeS66c9i5NziuA">
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_e9uzEH18EeS66c9i5NziuA" elementId="org.eclipse.e4.ide.application" bindingContexts="_e9uzGX18EeS66c9i5NziuA">
   <children xsi:type="basic:TrimmedWindow" xmi:id="_e9uzEX18EeS66c9i5NziuA" label="org.shorty.e4.master.ui.rap" width="500" height="400">
     <children xsi:type="basic:Part" xmi:id="_0NG54H2HEeS66c9i5NziuA" elementId="org.shorty.e4.master.ui.rap.part.0" contributionURI="bundleclass://org.shorty.e4.part/org.shorty.e4.part.MainPart"/>
+    <trimBars xmi:id="_t5R8oH2NEeSCTqlUvUWqMA" elementId="org.shorty.e4.master.ui.rap.trimbar.0">
+      <children xsi:type="menu:ToolBar" xmi:id="_vIe6sH2NEeSCTqlUvUWqMA" elementId="org.shorty.e4.master.ui.rap.toolbar.0">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_wDJzMH2NEeSCTqlUvUWqMA" elementId="org.shorty.e4.master.ui.rap.handledtoolitem.exit" label="Exit" iconURI="platform:/plugin/org.shorty.e4.common.ui/icons/door_out.png" tooltip="Exit here ..." command="_-1TY4H2NEeSCTqlUvUWqMA"/>
+      </children>
+    </trimBars>
   </children>
+  <handlers xmi:id="_B0siMH2OEeSCTqlUvUWqMA" elementId="org.shorty.e4.master.ui.rap.handler.0" contributionURI="bundleclass://org.shorty.e4.common.ui/org.shorty.e4.commons.ui.handler.ExitHandler" command="_-1TY4H2NEeSCTqlUvUWqMA"/>
   <rootContext xmi:id="_e9uzGX18EeS66c9i5NziuA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_e9uzGn18EeS66c9i5NziuA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_e9uzG318EeS66c9i5NziuA" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
   </rootContext>
+  <commands xmi:id="_-1TY4H2NEeSCTqlUvUWqMA" elementId="org.shorty.e4.master.ui.rap.command.exitcommand" commandName="ExitCommand"/>
   <addons xmi:id="_e9uzEn18EeS66c9i5NziuA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_e9uzE318EeS66c9i5NziuA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_e9uzFH18EeS66c9i5NziuA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
