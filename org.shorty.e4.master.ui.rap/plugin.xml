@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="RAP"
+         name="RAP"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="org.shorty.e4.master.ui.rap"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="applicationCSS"
+               value="platform:/plugin/org.shorty.e4.master.ui.rap/css/default.css">
+         </property>
+         <property
+               name="appName"
+               value="org.shorty.e4.master.ui.rap">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
