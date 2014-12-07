@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<?pde version="3.8"?><target name="org.shorty.e4.rcp" sequenceNumber="0">
+<?pde version="3.8"?><target name="org.shorty.e4.rcp" sequenceNumber="3">
 <locations>
-<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="planner" includeSource="true" type="InstallableUnit">
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
 <unit id="org.eclipse.rcp.feature.group" version="4.4.0.v20140925-0400"/>
 <repository location="http://download.eclipse.org/releases/luna"/>
+</location>
+<location includeAllPlatforms="false" includeConfigurePhase="true" includeMode="slicer" includeSource="true" type="InstallableUnit">
+<unit id="org.eclipse.e4.tools.css.spy.feature.feature.group" version="0.14.0.v20140707-1917"/>
+<unit id="org.eclipse.e4.databinding.tests.feature.feature.group" version="0.13.0.v20140320-1305"/>
+<unit id="org.eclipse.e4.databinding.feature.feature.group" version="0.13.0.v20140320-1340"/>
+<unit id="org.eclipse.e4.core.tools.feature.source.feature.group" version="0.14.0.v20140806-0758"/>
+<unit id="org.eclipse.e4.tools.context.spy.feature.feature.group" version="0.1.0.v20140708-1626"/>
+<unit id="org.eclipse.e4.tools.emf.liveeditor.feature.source.feature.group" version="0.15.0.v20140728-1808"/>
+<unit id="org.eclipse.e4.tools.event.spy.feature.feature.group" version="0.15.0.v20140707-1917"/>
+<unit id="org.eclipse.e4.tools.event.spy.feature.source.feature.group" version="0.15.0.v20140707-1917"/>
+<unit id="org.eclipse.e4.tools.orion.css.editor.feature.source.feature.group" version="0.15.0.v20140404-1904"/>
+<unit id="org.eclipse.e4.tools.css.editor.feature.feature.group" version="0.14.0.v20140221-1650"/>
+<unit id="org.eclipse.e4.tools.emf.liveeditor.feature.feature.group" version="0.15.0.v20140728-1808"/>
+<unit id="org.eclipse.e4.tools.css.editor.feature.source.feature.group" version="0.14.0.v20140221-1650"/>
+<unit id="org.eclipse.e4.tools.orion.css.editor.feature.feature.group" version="0.15.0.v20140404-1904"/>
+<unit id="org.eclipse.e4.core.tools.feature.feature.group" version="0.14.0.v20140806-0758"/>
+<unit id="org.eclipse.e4.tools.css.spy.feature.source.feature.group" version="0.14.0.v20140707-1917"/>
+<repository location="http://download.eclipse.org/e4/downloads/drops/S-0.16-201408072200/repository"/>
 </location>
 </locations>
 </target>
