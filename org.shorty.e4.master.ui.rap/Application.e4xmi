@@ -4,7 +4,7 @@
     <children xsi:type="basic:Part" xmi:id="_0NG54H2HEeS66c9i5NziuA" elementId="org.shorty.e4.master.ui.rap.part.0" contributionURI="bundleclass://org.shorty.e4.part/org.shorty.e4.part.MainPart"/>
     <trimBars xmi:id="_t5R8oH2NEeSCTqlUvUWqMA" elementId="org.shorty.e4.master.ui.rap.trimbar.0">
       <children xsi:type="menu:ToolBar" xmi:id="_vIe6sH2NEeSCTqlUvUWqMA" elementId="org.shorty.e4.master.ui.rap.toolbar.0">
-        <children xsi:type="menu:HandledToolItem" xmi:id="_wDJzMH2NEeSCTqlUvUWqMA" elementId="org.shorty.e4.master.ui.rap.handledtoolitem.exit" label="Exit" iconURI="platform:/plugin/org.shorty.e4.common.ui/icons/door_out.png" tooltip="Exit here ..." command="_-1TY4H2NEeSCTqlUvUWqMA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_wDJzMH2NEeSCTqlUvUWqMA" elementId="org.shorty.e4.master.ui.rap.handledtoolitem.exit" label="Exit" iconURI="platform:/plugin/org.shorty.e4.common.ui/icons/force_quit.png" tooltip="Exit here ..." command="_-1TY4H2NEeSCTqlUvUWqMA"/>
       </children>
     </trimBars>
   </children>

@@ -14,8 +14,14 @@
 
 * {
   color: #4a4a4a;
-  background-color: white;
-  background-image: none;
+  background-color: #927afe;
+  background-image: gradient(
+    linear, left top, left bottom,
+    from( #ffffff ),
+    color-stop( 48%, #f0f0f0 ),
+    color-stop( 52%, #e3efff ),
+    to( #e3efff )
+  );
   font: 12px Verdana, "Lucida Sans", Arial, Helvetica, sans-serif;
 }
 
@@ -48,12 +54,12 @@ Widget-ToolTip-Pointer {
 
 Display {
   rwt-shadow-color: #a7a6aa;
-  rwt-highlight-color: #ffffff;
+  rwt-highlight-color: #ffb45e;
   rwt-darkshadow-color: #85878c;
   rwt-lightshadow-color: #dcdfe4;
   rwt-thinborder-color: #aca899;
   rwt-selectionmarker-color: #fec83c;
-  rwt-infobackground-color: #ffffff;
+  rwt-infobackground-color: #927afe;
 
   rwt-error-image: url( theme/resources/dialog/error.png );
   rwt-information-image: url( theme/resources/dialog/information.png );
@@ -70,6 +76,7 @@ Display {
 /* Default theme for all controls */
 
 * {
+	 background-color: #e3efff;
   border: none;
   padding: 0px;
 }
@@ -83,7 +90,7 @@ Display {
 Composite {
   padding: 0px;
   opacity: 1;
-  background-color: #ffffff;
+  background-color: #e3efff;
   background-image: none;
   background-repeat: repeat;
   background-position: left top;
@@ -93,7 +100,7 @@ Composite {
 }
 
 Composite[BORDER] {
-  background-color: white;
+  background-color: #e3efff;
   background-image: none;
 }
 
@@ -112,6 +119,15 @@ Composite.footer {
 
 Composite.hello {
   background-color: #00A6E9;
+}
+
+
+TrimmedWindow {
+	background-color: #00A6E9;
+}
+
+PartStack {
+	background-color: #00A6E9;
 }
 
 Label.logo {
@@ -141,7 +157,7 @@ Button {
   cursor: default;
   animation: none;
   color: #4a4a4a;
-  background-color: white;
+  background-color: transparent;
   opacity: 1;
   text-shadow: none;
   text-decoration: none;
@@ -149,15 +165,15 @@ Button {
 }
 
 Button[PUSH], Button[TOGGLE], Button[BORDER] {
-  border: 1px solid #A4A4A4;
+  border: 0px solid #A4A4A4;
   border-radius: 3px;
   padding: 2px 5px;
   background-image: gradient(
     linear, left top, left bottom,
     from( #ffffff ),
     color-stop( 48%, #f0f0f0 ),
-    color-stop( 52%, #e0e0e0 ),
-    to( #ffffff )
+    color-stop( 52%, #e3efff ),
+    to( #e3efff )
   );
   animation: hoverOut 500ms ease-out;
   cursor: pointer;
@@ -181,7 +197,7 @@ Button[ARROW], Button[ARROW][BORDER] {
 Button[ARROW]:default,
 Button[PUSH]:default,
 Button[TOGGLE]:default {
-  background-color: white;
+  background-color: transparent;
   background-image: gradient(
     linear, left top, left bottom,
     from( #ffffff ),
@@ -196,7 +212,12 @@ Button[ARROW]:disabled, Button[PUSH]:disabled, Button[TOGGLE]:disabled {
   cursor: default;
 }
 
+Button:hover {
+	background-color: transparent;
+}
+
 Button[ARROW]:hover, Button[PUSH]:hover, Button[TOGGLE]:hover {
+	background-color: transparent;
   background-image: gradient(
     linear, left top, left bottom,
     from( #ffffff ),
@@ -742,7 +763,7 @@ ProgressBar-Indicator:error {
 Shell {
   animation: none;
   border: 1px black;
-  background-color: white;
+  background-color: #e3efff #8596af 50%;
   padding: 0px;
   background-image: none;
   opacity: 1;
@@ -750,12 +771,12 @@ Shell {
 }
 
 Shell.root-shell {
-	background-color: #00A6E9;
+	background-image: gradient( linear, left top, left bottom, from( #005fac ), to(  #e3efff ) );
 }
 
 Shell[TITLE], Shell[BORDER] {
   box-shadow: 5px 5px 3px rgba( 0, 0, 0, 0.5 );
-  background-color: white;
+  background-image: gradient( linear, left top, left bottom, from( #005fac ), to(  #e3efff ) );
   border: 2px solid #005092;
   border-radius: 5px 5px 0px 0px;
   padding: 5px;
@@ -785,7 +806,7 @@ Shell-Titlebar {
   background-color: #0080c0;
   background-gradient-color: #0080c0;
   color: white;
-  background-image: gradient( linear, left top, left bottom, from( #005fac ), to( #005092 ) );
+  background-image: gradient( linear, left top, left bottom, from( #005fac ), to(  #e3efff ) );
   padding: 2px 5px 2px;
   margin: 0px;
   height: 22px;
@@ -1229,7 +1250,7 @@ ToolBar {
   color: black;
   padding: 0px;
   spacing: 0px;
-  background-color: #ffffff;
+  background-color: #e3efff;
   background-image: none;
   border: none;
   opacity: 1;
@@ -1259,17 +1280,16 @@ ToolItem[FLAT] {
 }
 
 ToolItem:hover {
-  background-color: white;
-  border: 1px solid #a4a4a4;
+  background-color: transparent;
+  border: 0px solid #a4a4a4;
   border-radius: 2px 2px 2px 2px;
   padding: 2px 3px;
 }
 
 ToolItem:pressed, ToolItem:selected {
-  border: 1px solid #a4a4a4;
+  border: 0px solid #a4a4a4;
   border-radius: 2px;
   padding: 3px 2px 1px 4px;
-  background-image: url( theme/resources/toolbar/dotted_white.gif );
 }
 
 ToolItem-DropDownIcon {
@@ -1770,7 +1790,7 @@ ExpandItem-Button:expanded:hover {
 Sash {
   border: none;
   background-image: none;
-  background-color: transparent;
+ background-color: #e3efff #8596af 50%;
 }
 
 Sash[BORDER] {
@@ -2530,7 +2550,7 @@ Button-FocusIndicator.tabOverflowInactive {
 }
 
 Shell.toolbarLayer {
-  background-color: #ffffff;
+  background-color: #e3efff;
   border: none;
 }
 
@@ -2577,7 +2597,7 @@ Label.history-entry-label-close:hover {
 }
 
 .compTrans {
-  background-color: transparent;
+  background-color: #e3efff;
 }
 
 .partBorder {
@@ -2702,7 +2722,7 @@ MenuItem.header-overflow:hover {
 /* MenuBar */
 
 ToolBar.menuBar {
-  background-color: transparent;
+  background-color: #e3efff;
   padding: 0px;
   color: #0059a5;
   spacing: 25px;
@@ -2758,7 +2778,7 @@ MenuItem.menuBar:hover {
 /* View ToolBar */
 
 ToolBar.viewToolbar {
-  background-color: transparent;
+  background-color: #e3efff;
   padding: 1px 2px;
   spacing: 2px;
 }

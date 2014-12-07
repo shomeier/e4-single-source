@@ -10,7 +10,7 @@
             application="org.eclipse.e4.ui.workbench.swt.E4Application">
          <property
                name="applicationCSS"
-               value="platform:/plugin/org.shorty.e4.master.ui.rap/css/default.css">
+               value="platform:/plugin/org.shorty.e4.master.ui.rap/theme/business/shorty_busy.css">
          </property>
          <property
                name="appName"

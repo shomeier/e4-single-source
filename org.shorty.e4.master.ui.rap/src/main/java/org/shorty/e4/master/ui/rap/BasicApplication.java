@@ -15,11 +15,11 @@ public class BasicApplication implements ApplicationConfiguration
 
 	public void configure(Application application)
 	{
-		application.addStyleSheet("rap.business", "theme/business/business.css");
-		// application.addStyleSheet("shorty.business", "theme/business/shorty_busy.css");
+		// application.addStyleSheet("rap.business", "theme/business/business.css");
+		application.addStyleSheet("shorty.business", "theme/business/shorty_busy.css");
 		Map<String, String> properties = new HashMap<String, String>();
 		properties.put(WebClient.PAGE_TITLE, "e4 RAP App");
-		properties.put(WebClient.THEME_ID, "rap.business");
+		properties.put(WebClient.THEME_ID, "shorty.business");
 		application
 			.addEntryPoint(
 				"/rap",
