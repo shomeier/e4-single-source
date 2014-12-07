@@ -24,7 +24,7 @@ public class BasicApplication implements ApplicationConfiguration
 			.addEntryPoint(
 				"/rap",
 				new E4EntryPointFactory(E4ApplicationConfig
-					.create("platform:/plugin/org.shorty.e4.master.ui.rap/Application.e4xmi")), properties);
+					.create("platform:/plugin/org.shorty.e4.master.ui.common/CommonUi.e4xmi")), properties);
 		application.setOperationMode(OperationMode.SWT_COMPATIBILITY);
 	}
 
