@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Common ApplicationModel fro RAP and RCP
+Bundle-SymbolicName: org.shorty.e4.master.ui.common
+Bundle-Version: 1.0.0.qualifier
+Bundle-Vendor: Shorty
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
