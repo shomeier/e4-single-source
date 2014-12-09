@@ -19,13 +19,13 @@ SashForm {
 }
 /* background uses a gradient */
 .MTrimBar {
-  background-color: #e3efff #8091a8;
+/*  background-color: #e3efff #8091a8; */
   color: white;
   font: Verdana 8px;
 }
 
 Shell {
-  background-color: #e3efff #8596af 50%;
+  background-color: #005fac #e3efff 95%;
 }
 
 Button {
@@ -36,7 +36,6 @@ Button {
   spacing: 2px;
   cursor: default;
   animation: none;
-  color: #ff00ff;
   background-color: #ff2f30;
   opacity: 1;
   text-shadow: none;
