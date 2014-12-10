@@ -5,3 +5,10 @@ Bundle-SymbolicName: org.shorty.e4.master.ui.common
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: Shorty
 Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Import-Package: org.eclipse.e4.core.di.annotations,
+ org.eclipse.e4.ui.workbench,
+ org.eclipse.swt,
+ org.eclipse.swt.events,
+ org.eclipse.swt.layout,
+ org.eclipse.swt.widgets
+Require-Bundle: javax.inject;bundle-version="1.0.0"

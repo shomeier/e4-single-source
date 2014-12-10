@@ -1,4 +1,4 @@
-package org.shorty.e4.part;
+package org.shorty.e4.master.ui.common;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_Q5I28H18EeS66c9i5NziuA" elementId="org.eclipse.e4.ide.application" bindingContexts="_Q5I2-X18EeS66c9i5NziuA">
   <children xsi:type="basic:TrimmedWindow" xmi:id="_Q5I28X18EeS66c9i5NziuA" label="org.shorty.e4.master.ui.single.source" width="500" height="400">
-    <children xsi:type="basic:Part" xmi:id="_zH9bQH19EeS66c9i5NziuA" elementId="org.shorty.e4.master.ui.rcp.part.0" contributionURI="bundleclass://org.shorty.e4.part/org.shorty.e4.part.MainPart"/>
+    <children xsi:type="basic:Part" xmi:id="_zH9bQH19EeS66c9i5NziuA" elementId="org.shorty.e4.master.ui.rcp.part.0" contributionURI="bundleclass://org.shorty.e4.master.ui.common/org.shorty.e4.master.ui.common.MainPart"/>
     <trimBars xmi:id="_eIXhQH2QEeSmVdkMpY2pyg" elementId="org.shorty.e4.master.ui.rcp.trimbar.0">
       <children xsi:type="menu:ToolBar" xmi:id="_fJOhUH2QEeSmVdkMpY2pyg" elementId="org.shorty.e4.master.ui.rcp.toolbar.1">
-        <children xsi:type="menu:HandledToolItem" xmi:id="_jEigUH2QEeSmVdkMpY2pyg" elementId="org.shorty.e4.master.ui.rcp.handledtoolitem.exit" label="Exit" iconURI="platform:/plugin/org.shorty.e4.common.ui/icons/force_quit.png" tooltip="Exit here Common ..." command="_0q1TgH2OEeSmVdkMpY2pyg"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_jEigUH2QEeSmVdkMpY2pyg" elementId="org.shorty.e4.master.ui.rcp.handledtoolitem.exit" label="Exit" iconURI="platform:/plugin/org.shorty.e4.master.ui.common/icons/force_quit.png" tooltip="Exit here Common ..." command="_0q1TgH2OEeSmVdkMpY2pyg"/>
       </children>
     </trimBars>
   </children>
-  <handlers xmi:id="_2ZWq0H2OEeSmVdkMpY2pyg" elementId="org.shorty.e4.master.ui.rcp.handler.0" contributionURI="bundleclass://org.shorty.e4.common.ui/org.shorty.e4.common.ui.handler.ExitHandler" command="_0q1TgH2OEeSmVdkMpY2pyg"/>
+  <handlers xmi:id="_2ZWq0H2OEeSmVdkMpY2pyg" elementId="org.shorty.e4.master.ui.rcp.handler.0" contributionURI="bundleclass://org.shorty.e4.master.ui.common/org.shorty.e4.master.ui.common.ExitHandler" command="_0q1TgH2OEeSmVdkMpY2pyg"/>
   <rootContext xmi:id="_Q5I2-X18EeS66c9i5NziuA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
     <children xmi:id="_Q5I2-n18EeS66c9i5NziuA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
     <children xmi:id="_Q5I2-318EeS66c9i5NziuA" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
