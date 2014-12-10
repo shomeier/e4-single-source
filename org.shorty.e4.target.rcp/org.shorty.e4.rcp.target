@@ -91,6 +91,16 @@
 <plugin id="org.eclipse.e4.core.di.source" version="1.4.0.v20140414-1837"/>
 <plugin id="org.eclipse.e4.core.services"/>
 <plugin id="org.eclipse.e4.core.services.source"/>
+<plugin id="org.eclipse.e4.tools.css.editor"/>
+<plugin id="org.eclipse.e4.tools.css.editor.source"/>
+<plugin id="org.eclipse.e4.tools.css.editor.ui"/>
+<plugin id="org.eclipse.e4.tools.css.editor.ui.source"/>
+<plugin id="org.eclipse.e4.tools.css.spy"/>
+<plugin id="org.eclipse.e4.tools.css.spy.source"/>
+<plugin id="org.eclipse.e4.tools.orion.css.editor"/>
+<plugin id="org.eclipse.e4.tools.orion.css.editor.source"/>
+<plugin id="org.eclipse.e4.tools.spy"/>
+<plugin id="org.eclipse.e4.tools.spy.source"/>
 <plugin id="org.eclipse.e4.ui.bindings"/>
 <plugin id="org.eclipse.e4.ui.bindings.source"/>
 <plugin id="org.eclipse.e4.ui.css.core"/>
