@@ -3,7 +3,7 @@ package org.shorty.e4.master.ui.common;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-import javax.inject.Inject;
+import javax.annotation.PostConstruct;
 
 import org.eclipse.swt.SWT;
 import org.eclipse.swt.events.SelectionAdapter;
@@ -15,11 +15,10 @@ import org.eclipse.swt.widgets.Text;
 
 public class MainPart
 {
-
 	private Text text;
 
-	@Inject
-	public MainPart(Composite parent)
+	@PostConstruct
+	public void createControls(Composite parent)
 	{
 		Composite composite = new Composite(parent, SWT.NONE);
 

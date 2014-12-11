@@ -11,4 +11,5 @@ Import-Package: org.eclipse.e4.core.di.annotations,
  org.eclipse.swt.events,
  org.eclipse.swt.layout,
  org.eclipse.swt.widgets
-Require-Bundle: javax.inject;bundle-version="1.0.0"
+Require-Bundle: javax.inject;bundle-version="1.0.0",
+ javax.annotation;bundle-version="1.0.0"
