@@ -22,9 +22,6 @@ public class MainPart
 	{
 		Composite composite = new Composite(parent, SWT.NONE);
 
-		// Display display = Display.getCurrent();
-		// composite.setBackground(display.getSystemColor(SWT.COLOR_BLUE));
-
 		composite.setLayout(new RowLayout(SWT.HORIZONTAL));
 		text = new Text(composite, SWT.BORDER);
 
