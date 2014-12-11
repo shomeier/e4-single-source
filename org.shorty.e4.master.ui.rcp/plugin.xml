@@ -9,10 +9,6 @@
             name="org.shorty.e4.master.ui.rcp"
             application="org.eclipse.e4.ui.workbench.swt.E4Application">
          <property
-               name="applicationCSS"
-               value="platform:/plugin/org.shorty.e4.master.ui.rcp/css/default.css">
-         </property>
-         <property
                name="appName"
                value="org.shorty.e4.master.ui.rcp">
          </property>
@@ -20,7 +16,19 @@
                name="applicationXMI"
                value="org.shorty.e4.master.ui.common/CommonUi.e4xmi">
          </property>
+         <property
+               name="cssTheme"
+               value="defaultTheme">
+         </property>
       </product>
+   </extension>
+   <extension
+         point="org.eclipse.e4.ui.css.swt.theme">
+      <theme
+            basestylesheeturi="css/default.css"
+            id="defaultTheme"
+            label="defaultTheme">
+      </theme>
    </extension>
 
 </plugin>
